@@ -1,0 +1,44 @@
+#header {
+  background: var(--BG-color);
+  font-family: var(--ITC-Avant);
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    nav {
+      display: flex;
+      gap: 30px;
+      a {
+        color: var(--aTage-color);
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        border-bottom: solid 1px var(--BG-color);
+        padding-bottom: 5px;
+        transition: 0.5s;
+      }
+      a:focus {
+        color: var(--white-color);
+        border-bottom: solid 1px var(--white-color);
+        padding-bottom: 5px;
+      }
+    }
+    .btns {
+      display: flex;
+      gap: 20px;
+      button {
+        border: solid 1px var(--aTage-color);
+        padding: 7px 20px;
+        border-radius: 40px;
+        background: none;
+        color: var(--aTage-color);
+        transition: 0.5s;
+      }
+      button:focus {
+        border: solid 1px var(--ye-color);
+        background: var(--ye-color);
+        color: var(--BG-color);
+      }
+    }
+  }
+}
