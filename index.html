@@ -1,60 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
-		<link rel="stylesheet" href="./style/index.css" />
-	</head>
-	<body>
-		<header id="header">
-			<div class="container">
-				<div class="header">
-					<a href="#">
-						<img src="./img/logo.svg" alt="logo" />
-					</a>
-					<nav>
-						<a href="#">Home</a>
-						<a href="#">Project</a>
-						<a href="#">About</a>
-						<a href="#">Blog</a>
-						<a href="#">Contact</a>
-					</nav>
-					<div class="btns">
-						<button>Sign in</button><button>Sign up</button>
-					</div>
-				</div>
-			</div>
-		</header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/index.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <div class="header">
+          <a href="#">
+            <img src="./img/logo.svg" alt="logo" />
+          </a>
+          <nav>
+            <a href="#">Home</a>
+            <a href="#">Project</a>
+            <a href="#">About</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+          </nav>
+          <div class="btns">
+            <button
+              class="button-1"
+              onclick="window.location.href='./signin.html'"
+            >
+              Sign in
+            </button>
+            <button
+              class="button-2"
+              onclick="window.location.href='./signup.html'"
+            >
+              Sign up
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="hero">
+      <div class="container">
+        <div class="hero">
+          <div class="text">
+            <ion-icon class="ion-icon" name="sparkles"></ion-icon>
+            <h1>We’re a Creative Design Agency</h1>
+            <p>
+              We are delivering top level digital services <br />
+              best experlenced team, just get stared
+            </p>
+            <div class="btn">
+              <button>
+                Get Started
+                <ion-icon name="arrow-forward-outline"></ion-icon></button
+              ><button>
+                <ion-icon name="play-circle"></ion-icon> How it works
+              </button>
+            </div>
+            <div class="farm">
+              <div class="pas">
+                <h1>20+</h1>
+                <p>Years of Excellent</p>
+              </div>
+              <div class="pas">
+                <h1>90%</h1>
+                <p>Happy Client</p>
+              </div>
+              <div class="pas">
+                <h1>80%</h1>
+                <p>Project Succes</p>
+              </div>
+            </div>
+          </div>
+          <div class="images">
+            <h3><ion-icon name="ellipse"></ion-icon></h3>
+            <img src="./img/hero-1.svg" alt="image" />
+            <div class="posishn">
+              <img src="./img/hero-1,1.svg" alt="img" />
+            </div>
+          </div>
+        </div>
+        <div class="icons">
+          <img src="./img/google.svg" alt="image" />
+          <img src="./img/Dropbox.svg" alt="image" />
+          <img src="./img/amazon.svg" alt="image" />
+          <img src="./img/atlassian.svg" alt="image" />
+          <img src="./img/atlassian.svg" alt="image" />
+          <img src="./img/hubspot.svg" alt="image" />
+        </div>
+      </div>
+    </section>
 
-		<section id="reg">
-			<div class="container">
-				<div class="reg">
-					<div class="reg-text">
-						<button>OUR CONTACTS</button>
-						<h1>Let’s Start Working Together. Get in Touch with Us!</h1>
-						<p>
-							Get in touch to discuss your employee wellbeing needs today.
-							Please give us a call, drop us an email.
-						</p>
-						<h4>
-							<ion-icon name="location-outline"></ion-icon>41 Pilgrm Avenue,
-							Chevy Chase, Md 20815
-						</h4>
-						<h5><ion-icon name="call-outline"></ion-icon>+01234 567 890</h5>
-						<h6><ion-icon name="mail-outline"></ion-icon>info@agency.com</h6>
-					</div>
-					<div class="reg-in">
-						<h3>Your Name</h3>
-						<input type="text" placeholder="Manowar Hossain" />
-						<input type="email" placeholder="Your Email" />
-						<input type="text" placeholder="Website" />
-						<input type="text" placeholder="Tell About Your Project" />
-						<button>Submit</button>
-					</div>
-				</div>
-			</div>
-		</section>
+    <section id="reg">
+      <div class="container">
+        <div class="reg">
+          <div class="reg-text">
+            <button>OUR CONTACTS</button>
+            <h1>Let’s Start Working Together. Get in Touch with Us!</h1>
+            <p>
+              Get in touch to discuss your employee wellbeing needs today.
+              Please give us a call, drop us an email.
+            </p>
+            <h4>
+              <ion-icon name="location-outline"></ion-icon>41 Pilgrm Avenue,
+              Chevy Chase, Md 20815
+            </h4>
+            <h5><ion-icon name="call-outline"></ion-icon>+01234 567 890</h5>
+            <h6><ion-icon name="mail-outline"></ion-icon>info@agency.com</h6>
+          </div>
+          <div class="reg-in">
+            <h3>Your Name</h3>
+            <input type="text" placeholder="Manowar Hossain" />
+            <input type="email" placeholder="Your Email" />
+            <input type="text" placeholder="Website" />
+            <input type="text" placeholder="Tell About Your Project" />
+            <button>Submit</button>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <footer id="footer">
       <div class="container">
