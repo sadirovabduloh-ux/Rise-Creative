@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In - Rise Creative</title>
+    <link rel="stylesheet" href="./style/index.css" />
+    <link rel="stylesheet" href="./style/css/signin.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <div class="header">
+          <a href="./">
+            <img src="./img/logo.svg" alt="logo" />
+          </a>
+          <nav>
+            <a href="./">Home</a>
+            <a href="#">Project</a>
+            <a href="#">About</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+          </nav>
+          <div class="btns">
+            <button
+              class="button-1 active"
+              onclick="window.location.href='./signin.html'"
+            >
+              Sign in
+            </button>
+            <button
+              class="button-2"
+              onclick="window.location.href='./signup.html'"
+            >
+              Sign up
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="signin-container">
+        <h1>Welcome Back</h1>
+        <p>Sign in to your account to continue</p>
+
+        <form id="signin-form">
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="your@email.com"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="••••••••"
+              required
+            />
+          </div>
+
+          <div class="remember-forgot">
+            <label>
+              <input type="checkbox" name="remember" /> Remember me
+            </label>
+            <a href="#">Forgot password?</a>
+          </div>
+
+          <button type="submit" class="signin-btn">Sign In</button>
+        </form>
+
+        <div class="signup-link">
+          Don't have an account? <a href="./signup.html">Sign up here</a>
+        </div>
+      </div>
+    </main>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script>
+      document
+        .getElementById("signin-form")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+          alert("Sign in successful!");
+        });
+    </script>
+  </body>
+</html>

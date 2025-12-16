@@ -53,6 +53,15 @@
         background: none;
         color: var(--aTage-color);
       }
+      button.active {
+        background: var(--ye-color);
+        color: var(--BG-color);
+        border: solid 1px var(--ye-color);
+        box-shadow: 1px 5px 15px var(--ye-color);
+      }
+      button.active:hover {
+        transform: translateY(-5px);
+      }
     }
   }
 }
