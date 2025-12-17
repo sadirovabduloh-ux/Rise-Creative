@@ -1,6 +1,8 @@
 #header {
   background: var(--BG-color);
   font-family: var(--ITC-Avant);
+  position: relative;
+  z-index: 1;
   .header {
     display: flex;
     justify-content: space-between;
@@ -34,10 +36,31 @@
         color: var(--aTage-color);
         transition: 0.5s;
       }
-      button:focus {
+      button:hover {
+        transform: translateY(-5px);
+        box-shadow: 1px 5px 15px var(--ye-color);
         border: solid 1px var(--ye-color);
         background: var(--ye-color);
         color: var(--BG-color);
+        transition: 0.5ms;
+      }
+      button:focus:active {
+        border: solid 1px var(--aTage-color);
+        transform: translateY(0);
+        box-shadow: none;
+        padding: 7px 20px;
+        border-radius: 40px;
+        background: none;
+        color: var(--aTage-color);
+      }
+      button.active {
+        background: var(--ye-color);
+        color: var(--BG-color);
+        border: solid 1px var(--ye-color);
+        box-shadow: 1px 5px 15px var(--ye-color);
+      }
+      button.active:hover {
+        transform: translateY(-5px);
       }
     }
   }
