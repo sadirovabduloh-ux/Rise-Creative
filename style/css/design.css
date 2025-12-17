@@ -1,0 +1,115 @@
+.searvices {
+  text-align: center;
+  button {
+    margin-top: 20px;
+    margin-left: 40px;
+    font-weight: 500;
+    padding: 8px 20px;
+    width: 180px;
+    border-radius: 30px;
+    border: none;
+    background: #f0e71433;
+    transition: 0.5s;
+  }
+
+  h1 {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-style: Demi;
+    font-size: 44px;
+    line-height: 56px;
+    letter-spacing: 0%;
+    padding-top: 30px;
+  }
+  p {
+    color: rgb(133, 130, 130);
+    padding-top: 20px;
+  }
+}
+
+.all-Cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-top: 70px;
+  .card {
+    background-color: #e7e5e5;
+    width: 290px;
+    height: 240px;
+    padding: 40px;
+
+    h5 {
+      font-family: sans-serif;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 32px;
+      letter-spacing: 0%;
+      padding-top: 10px;
+    }
+    p {
+      color: rgb(168, 165, 165);
+    }
+  }
+}
+
+.elegant {
+  button {
+    margin-top: 20px;
+    margin-left: 40px;
+    font-weight: 500;
+    padding: 8px 20px;
+    width: 180px;
+    border-radius: 30px;
+    border: none;
+    background: #f0e71433;
+  }
+  h1 {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    padding-top: 10px;
+    margin-left: 50px;
+    padding-top: 12px;
+  }
+  .text {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    img {
+      width: 90px;
+      height: 50px;
+    }
+  }
+}
+
+.hotel {
+  display: flex;
+  gap: 90px;
+  padding-top: 40px;
+  img {
+  }
+  h1 {
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 34px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    padding-top: 30px;
+  }
+  p {
+    font-size: smaller;
+    color: rgb(112, 111, 111);
+    padding-top: 20px;
+  }
+  h6 {
+    font-size: smaller;
+    padding-top: 20px;
+  }
+  .decor{
+    height: 495px;
+  }
+}
+
+
