@@ -1,4 +1,4 @@
-.searvices {
+.services {
   text-align: center;
   button {
     margin-top: 20px;
@@ -88,8 +88,6 @@
   display: flex;
   gap: 90px;
   padding-top: 40px;
-  img {
-  }
   h1 {
     font-family: sans-serif;
     font-weight: 100;
@@ -107,9 +105,7 @@
     font-size: smaller;
     padding-top: 20px;
   }
-  .decor{
+  .decor {
     height: 495px;
   }
 }
-
-
