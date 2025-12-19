@@ -1,94 +1,94 @@
 #beksul {
-	padding: 150px;
-	background: rgb(244, 242, 242);
+  padding: 150px;
+  background: rgb(244, 242, 242);
 }
 
 .beksul {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .bek-img1 {
-	position: relative;
-	top: 200px;
-	left: -120px;
+  position: relative;
+  top: 200px;
+  left: -120px;
 }
 .bek-img2 {
-	position: absolute;
-	top: 800px;
-	left: 125px;
+  position: absolute;
+  top: 800px;
+  left: 125px;
 }
 .bek-text {
-	width: 830px;
-	padding-left: 270px;
-	display: flex;
-	flex-direction: column;
-	gap: 30px;
-	a {
-		padding: 10px 20px;
-		width: 130px;
-		text-align: center;
-		border-radius: 30px;
-		border: none;
-		background: #f0e71433;
-		transition: 0.5s;
-		font-weight: 400;
-		font-style: Regular;
-		font-size: 16px;
-		line-height: 100%;
-		letter-spacing: 0%;
-		text-transform: uppercase;
-		color: #24272e;
-	}
-	h1 {
-		font-weight: 600;
-		font-style: Demi;
-		font-size: 44px;
-		line-height: 56px;
-		letter-spacing: 0%;
-	}
-	p {
-		font-weight: 400;
-		font-style: Regular;
-		font-size: 20px;
-		line-height: 30px;
-		letter-spacing: 0%;
-		color: #555c68;
-		width: 508px;
-	}
-	button {
-		padding: 10px 30px;
-		border-radius: 50px;
-		background: #24272e;
-		font-weight: 500;
-		font-style: Medium;
-		font-size: 14px;
-		line-height: 22px;
-		letter-spacing: 0%;
-		color: #f0e714;
-		display: flex;
-		align-items: center;
-		gap: 5px;
-		width: 150px;
-		text-align: center;
-		ion-icon {
-			color: #f0e714;
-		}
-	}
+  width: 830px;
+  padding-left: 270px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  a {
+    padding: 10px 20px;
+    width: 130px;
+    text-align: center;
+    border-radius: 30px;
+    border: none;
+    background: #f0e71433;
+    transition: 0.5s;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #24272e;
+  }
+  h1 {
+    font-weight: 600;
+    font-style: Demi;
+    font-size: 44px;
+    line-height: 56px;
+    letter-spacing: 0%;
+  }
+  p {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: #555c68;
+    width: 508px;
+  }
+  button {
+    padding: 10px 30px;
+    border-radius: 50px;
+    background: #24272e;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #f0e714;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 150px;
+    text-align: center;
+    ion-icon {
+      color: #f0e714;
+    }
+  }
 }
 
 .bek-text button:hover {
-	background: #f6ef2d;
-	transform: translateY(-2px);
-	box-shadow: 0 14px 36px rgba(241, 234, 23, 0.55);
-	color: #101c26;
-	border: none;
-	ion-icon {
-		color: #101c26;
-	}
+  background: #f6ef2d;
+  transform: translateY(-2px);
+  box-shadow: 0 14px 36px rgba(241, 234, 23, 0.55);
+  color: #101c26;
+  border: none;
+  ion-icon {
+    color: #101c26;
+  }
 }
 
 .bek-text button:active {
-	transform: translateY(0);
-	box-shadow: 0 8px 20px rgba(241, 234, 23, 0.35);
+  transform: translateY(0);
+  box-shadow: 0 8px 20px rgba(241, 234, 23, 0.35);
 }

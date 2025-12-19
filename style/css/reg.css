@@ -1,121 +1,120 @@
 .reg {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 50px;
 }
 .reg-text {
-	display: flex;
-	flex-direction: column;
-	gap: 30px;
-	width: 450px;
-	button {
-		padding: 10px 16px;
-		border-radius: 30px;
-		background: #f0e71433;
-		font-weight: 400;
-		font-style: Regular;
-		font-size: 16px;
-		line-height: 22px;
-		letter-spacing: 0%;
-		width: 160px;
-	}
-	h1 {
-		font-weight: 540;
-		font-style: Medium;
-		font-size: 34px;
-		line-height: 44px;
-		letter-spacing: 0%;
-	}
-	p {
-		font-weight: 400;
-		font-style: Regular;
-		font-size: 16px;
-		line-height: 24px;
-		letter-spacing: -1.1%;
-	}
-	h4 {
-		font-weight: 500;
-		font-style: Medium;
-		font-size: 14px;
-		line-height: 100%;
-		letter-spacing: 0%;
-	}
-	h5 {
-		font-weight: 500;
-		font-style: Medium;
-		font-size: 14px;
-		line-height: 100%;
-		letter-spacing: 0%;
-	}
-	h6 {
-		display: flex;
-		align-items: flex-end;
-		font-weight: 500;
-		font-style: Medium;
-		font-size: 14px;
-		line-height: 100%;
-		letter-spacing: 0%;
-	}
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 450px;
+  button {
+    padding: 10px 16px;
+    border-radius: 30px;
+    background: #f0e71433;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    width: 160px;
+  }
+  h1 {
+    font-weight: 540;
+    font-style: Medium;
+    font-size: 34px;
+    line-height: 44px;
+    letter-spacing: 0%;
+  }
+  p {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -1.1%;
+  }
+  h4 {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+  }
+  h5 {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+  }
+  h6 {
+    display: flex;
+    align-items: flex-end;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+  }
 }
 .reg-in {
-	display: flex;
-	flex-direction: column;
-	gap: 35px;
-	width: 620px;
-	height: 494px;
-	background: #101c26;
-	border-radius: 20px;
-	h3 {
-		padding-top: 60px;
-		padding-left: 50px;
-		font-weight: 500;
-		font-style: Medium;
-		font-size: 14px;
-		line-height: 24px;
-		letter-spacing: 0%;
-		color: #d3d3d3;
-	}
-	input {
-		color: #d3d3d3;
-		margin-left: 50px;
-		margin-right: 150px;
-		font-weight: 600;
-		font-style: Semi Bold;
-		font-size: 16px;
-		line-height: 24px;
-		letter-spacing: 0%;
-		background: #101c26;
-		border-bottom: 2px solid rgba(255, 255, 255, 0.7);
-	}
-	button {
-		margin-top: 30px;
-		margin-left: 50px;
-		font-weight: 500;
-		padding: 10px 30px;
-		width: 180px;
-		border-radius: 30px;
-		background: none;
-		border: solid 2px #d3d3d3c4;
-		color: #d3d3d3;
-		transition: 0.5s;
-	}
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  width: 620px;
+  height: 494px;
+  background: #101c26;
+  border-radius: 20px;
+  h3 {
+    padding-top: 60px;
+    padding-left: 50px;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #d3d3d3;
+  }
+  input {
+    color: #d3d3d3;
+    margin-left: 50px;
+    margin-right: 150px;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    background: #101c26;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+  }
+  button {
+    margin-top: 30px;
+    margin-left: 50px;
+    font-weight: 500;
+    padding: 10px 30px;
+    width: 180px;
+    border-radius: 30px;
+    background: none;
+    border: solid 2px #d3d3d3c4;
+    color: #d3d3d3;
+    transition: 0.5s;
+  }
 }
 
 .reg-in button:hover {
-	background: #f6ef2d;
-	transform: translateY(-2px);
-	box-shadow: 0 14px 36px rgba(241, 234, 23, 0.55);
-	color: #101c26;
-	border: none;
+  background: #f6ef2d;
+  transform: translateY(-2px);
+  box-shadow: 0 14px 36px rgba(241, 234, 23, 0.55);
+  color: #101c26;
+  border: none;
 }
 
 .reg-in input:hover {
-	border-bottom: 2px solid rgb(255, 255, 255);
+  border-bottom: 2px solid rgb(255, 255, 255);
 }
 
 .reg-in button:active {
-	transform: translateY(0);
-	box-shadow: 0 8px 20px rgba(241, 234, 23, 0.35);
+  transform: translateY(0);
+  box-shadow: 0 8px 20px rgba(241, 234, 23, 0.35);
 }
-

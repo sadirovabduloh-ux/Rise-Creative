@@ -1,154 +1,154 @@
 #design {
-	background: rgb(244, 242, 242);
-	padding: 50px;
+  background: rgb(244, 242, 242);
+  padding: 50px;
 }
 
 .services {
-	text-align: center;
-	button {
-		font-weight: 500;
-		padding: 8px 20px;
-		width: 180px;
-		border-radius: 30px;
-		border: none;
-		background: #f0e71433;
-		transition: 0.5s;
-	}
+  text-align: center;
+  button {
+    font-weight: 500;
+    padding: 8px 20px;
+    width: 180px;
+    border-radius: 30px;
+    border: none;
+    background: #f0e71433;
+    transition: 0.5s;
+  }
 
-	h1 {
-		font-family: sans-serif;
-		font-weight: 600;
-		font-style: Demi;
-		font-size: 44px;
-		line-height: 56px;
-		letter-spacing: 0%;
-		padding-top: 30px;
-	}
-	p {
-		color: rgb(133, 130, 130);
-		padding-top: 20px;
-	}
+  h1 {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-style: Demi;
+    font-size: 44px;
+    line-height: 56px;
+    letter-spacing: 0%;
+    padding-top: 30px;
+  }
+  p {
+    color: rgb(133, 130, 130);
+    padding-top: 20px;
+  }
 }
 
 .all-Cards {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	gap: 50px;
-	padding-top: 70px;
-	.card {
-		background-color: #ffffff;
-		width: 250px;
-		height: 230px;
-		padding: 40px;
-		border-radius: 10px;
-		transition: transform 0.3s ease, opacity 0.3s ease;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding-top: 70px;
+  .card {
+    background-color: #ffffff;
+    width: 250px;
+    height: 230px;
+    padding: 40px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
 
-		h5 {
-			font-family: sans-serif;
-			font-weight: 600;
-			font-size: 24px;
-			line-height: 32px;
-			letter-spacing: 0%;
-			padding-top: 10px;
-		}
-		p {
-			color: rgb(168, 165, 165);
-		}
-	}
-	.card:hover {
-		transform: scale(1.1);
-		box-shadow: 0 8px 20px rgba(0, 0, 0, 0.141);
-	}
+    h5 {
+      font-family: sans-serif;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 32px;
+      letter-spacing: 0%;
+      padding-top: 10px;
+    }
+    p {
+      color: rgb(168, 165, 165);
+    }
+  }
+  .card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.141);
+  }
 }
 
 #elegant {
-	background: rgb(244, 242, 242);
+  background: rgb(244, 242, 242);
 }
 
 .elegant {
-	button {
-		font-weight: 500;
-		padding: 8px 20px;
-		width: 180px;
-		border-radius: 30px;
-		border: none;
-		background: #f0e71433;
-	}
-	h1 {
-		font-family: sans-serif;
-		font-weight: 600;
-		font-size: 24px;
-		line-height: 32px;
-		letter-spacing: 0%;
-		padding-top: 10px;
-		padding-top: 12px;
-	}
-	.text {
-		display: flex;
-		justify-content: space-between;
-		gap: 10px;
-		h1 {
-			font-weight: 600;
-			font-style: Demi;
-			font-size: 44px;
-			line-height: 56px;
-			letter-spacing: 0%;
-		}
-		ion-icon {
-			margin-right: 10px;
-			margin-top: 50px;
-			font-size: 25px;
-			border: solid 1px #828282;
-			border-radius: 50px;
-			padding: 10px;
-			color: #828282;
-		}
-		.ico {
-			margin-right: 10px;
-		}
-		ion-icon:hover {
-			border: solid 1px #000;
-			color: #000;
-		}
-	}
+  button {
+    font-weight: 500;
+    padding: 8px 20px;
+    width: 180px;
+    border-radius: 30px;
+    border: none;
+    background: #f0e71433;
+  }
+  h1 {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    padding-top: 10px;
+    padding-top: 12px;
+  }
+  .text {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    h1 {
+      font-weight: 600;
+      font-style: Demi;
+      font-size: 44px;
+      line-height: 56px;
+      letter-spacing: 0%;
+    }
+    ion-icon {
+      margin-right: 10px;
+      margin-top: 50px;
+      font-size: 25px;
+      border: solid 1px #828282;
+      border-radius: 50px;
+      padding: 10px;
+      color: #828282;
+    }
+    .ico {
+      margin-right: 10px;
+    }
+    ion-icon:hover {
+      border: solid 1px #000;
+      color: #000;
+    }
+  }
 }
 
 .hotel {
-	display: flex;
-	gap: 90px;
-	padding-top: 40px;
-	h1 {
-		margin-top: 20px;
-		font-weight: 500;
-		font-style: Medium;
-		font-size: 34px;
-		line-height: 28px;
-		letter-spacing: 0%;
-	}
-	p {
-		width: 380px;
-		color: rgb(112, 111, 111);
-		padding-top: 10px;
-		font-weight: 400;
-		font-style: Regular;
-		font-size: 16px;
-		line-height: 25px;
-		letter-spacing: 0%;
-	}
-	h6 {
-		font-weight: 600;
-		font-style: Demi;
-		font-size: 16px;
-		line-height: 100%;
-		letter-spacing: 0%;
-		vertical-align: middle;
-		display: flex;
-		gap: 5px;
-		padding-top: 10px;
-	}
-	.decor {
-		width: 612px;
-		height: 615px;
-	}
+  display: flex;
+  gap: 90px;
+  padding-top: 40px;
+  h1 {
+    margin-top: 20px;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 34px;
+    line-height: 28px;
+    letter-spacing: 0%;
+  }
+  p {
+    width: 380px;
+    color: rgb(112, 111, 111);
+    padding-top: 10px;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0%;
+  }
+  h6 {
+    font-weight: 600;
+    font-style: Demi;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    display: flex;
+    gap: 5px;
+    padding-top: 10px;
+  }
+  .decor {
+    width: 612px;
+    height: 615px;
+  }
 }

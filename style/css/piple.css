@@ -1,172 +1,172 @@
 #piple {
-	padding: 50px;
-	background: rgb(244, 242, 242);
+  padding: 50px;
+  background: rgb(244, 242, 242);
 }
 .piple-text {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 20px;
-	padding-bottom: 40px;
-	button {
-		padding: 10px 16px;
-		border-radius: 30px;
-		background: #f0e71433;
-		font-weight: 400;
-		font-style: Regular;
-		font-size: 16px;
-		line-height: 22px;
-		letter-spacing: 0%;
-		width: 160px;
-	}
-	h1 {
-		font-weight: 600;
-		font-style: Demi;
-		font-size: 44px;
-		line-height: 56px;
-		letter-spacing: 0%;
-	}
-	h4 {
-		font-weight: 400;
-		font-style: Regular;
-		font-size: 20px;
-		line-height: 28px;
-		letter-spacing: -1.1%;
-		text-align: center;
-		color: #8791a0;
-	}
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 40px;
+  button {
+    padding: 10px 16px;
+    border-radius: 30px;
+    background: #f0e71433;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    width: 160px;
+  }
+  h1 {
+    font-weight: 600;
+    font-style: Demi;
+    font-size: 44px;
+    line-height: 56px;
+    letter-spacing: 0%;
+  }
+  h4 {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -1.1%;
+    text-align: center;
+    color: #8791a0;
+  }
 }
 
 .p-cart {
-	display: flex;
-	gap: 50px;
+  display: flex;
+  gap: 50px;
 }
 
 .p-cart1 {
-	width: 580px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 10px;
-	background: white;
-	padding: 45px 45px;
-	border-radius: 10px;
-	transition: transform 0.3s ease, opacity 0.3s ease;
-	h1 {
-		font-weight: 500;
-		font-style: Medium;
-		font-size: 14px;
-		line-height: 24px;
-		letter-spacing: 0%;
-	}
-	h4 {
-		color: #8791a0;
-		font-weight: 500;
-		font-style: Medium;
-		font-size: 12px;
-		line-height: 18px;
-		letter-spacing: 0%;
-	}
-	p {
-		font-weight: 500;
-		font-style: Medium;
-		font-size: 16px;
-		line-height: 30px;
-		letter-spacing: -1.1%;
-		text-align: center;
-		color: #555c68;
-		display: flex;
-		align-items: flex-start;
-	}
-	span {
-		align-items: flex-end;
-	}
+  width: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background: white;
+  padding: 45px 45px;
+  border-radius: 10px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  h1 {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+  }
+  h4 {
+    color: #8791a0;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0%;
+  }
+  p {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: -1.1%;
+    text-align: center;
+    color: #555c68;
+    display: flex;
+    align-items: flex-start;
+  }
+  span {
+    align-items: flex-end;
+  }
 }
 
 .p-cart2 {
-	width: 580px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 10px;
-	background: white;
-	padding: 45px 45px;
-	border-radius: 10px;
-	transition: transform 0.3s ease, opacity 0.3s ease;
-	h1 {
-		font-weight: 500;
-		font-style: Medium;
-		font-size: 14px;
-		line-height: 24px;
-		letter-spacing: 0%;
-	}
-	h4 {
-		color: #8791a0;
-		font-weight: 500;
-		font-style: Medium;
-		font-size: 12px;
-		line-height: 18px;
-		letter-spacing: 0%;
-	}
-	p {
-		font-weight: 500;
-		font-style: Medium;
-		font-size: 16px;
-		line-height: 30px;
-		letter-spacing: -1.1%;
-		text-align: center;
-		color: #555c68;
-		display: flex;
-		align-items: flex-start;
-	}
+  width: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background: white;
+  padding: 45px 45px;
+  border-radius: 10px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  h1 {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+  }
+  h4 {
+    color: #8791a0;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0%;
+  }
+  p {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: -1.1%;
+    text-align: center;
+    color: #555c68;
+    display: flex;
+    align-items: flex-start;
+  }
 }
 
 .p-cart3 {
-	width: 580px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 10px;
-	background: white;
-	padding: 45px 45px;
-	border-radius: 10px;
-	transition: transform 0.3s ease, opacity 0.3s ease;
-	h1 {
-		font-weight: 500;
-		font-style: Medium;
-		font-size: 14px;
-		line-height: 24px;
-		letter-spacing: 0%;
-	}
-	h4 {
-		color: #8791a0;
-		font-weight: 500;
-		font-style: Medium;
-		font-size: 12px;
-		line-height: 18px;
-		letter-spacing: 0%;
-	}
-	p {
-		font-weight: 500;
-		font-style: Medium;
-		font-size: 16px;
-		line-height: 30px;
-		letter-spacing: -1.1%;
-		text-align: center;
-		color: #555c68;
-		display: flex;
-		align-items: flex-start;
-	}
+  width: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background: white;
+  padding: 45px 45px;
+  border-radius: 10px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  h1 {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+  }
+  h4 {
+    color: #8791a0;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0%;
+  }
+  p {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: -1.1%;
+    text-align: center;
+    color: #555c68;
+    display: flex;
+    align-items: flex-start;
+  }
 }
 
 .p-cart1:hover,
 .p-cart3:hover,
 .p-cart2:hover {
-	transform: scale(1.1);
-	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.141);
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.141);
 }
 
 .pip-img {
-	margin-top: 50px;
-	margin-left: 45%;
+  margin-top: 50px;
+  margin-left: 45%;
 }

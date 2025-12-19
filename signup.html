@@ -6,6 +6,7 @@
     <title>Sign Up - Rise Creative</title>
     <link rel="stylesheet" href="./style/index.css" />
     <link rel="stylesheet" href="./style/css/signup.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <header id="header">
@@ -40,7 +41,7 @@
     </header>
 
     <main>
-      <div class="signup-container">
+      <div class="signup-container" data-aos="fade-up" data-aos-duration="800">
         <h1>Create Account</h1>
         <p>Join us today and start exploring amazing features</p>
 
@@ -114,6 +115,17 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 800,
+        easing: "ease-in-out",
+        once: false,
+        mirror: true,
+        offset: 100,
+      });
+    </script>
 
     <script>
       document
