@@ -1,3 +1,7 @@
+#design {
+  background: rgb(244, 242, 242);
+}
+
 .services {
   text-align: center;
   button {
@@ -30,13 +34,16 @@
 .all-Cards {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 50px;
   padding-top: 70px;
   .card {
-    background-color: #e7e5e5;
-    width: 290px;
-    height: 240px;
+    background-color: #ffffff;
+    width: 250px;
+    height: 200px;
     padding: 40px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  
 
     h5 {
       font-family: sans-serif;
@@ -50,6 +57,14 @@
       color: rgb(168, 165, 165);
     }
   }
+  .card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.141);
+  }
+}
+
+#elegant {
+  background: rgb(244, 242, 242);
 }
 
 .elegant {
@@ -106,6 +121,7 @@
     padding-top: 20px;
   }
   .decor {
-    height: 495px;
+    width: 300px;
+    height: 700px;
   }
 }
