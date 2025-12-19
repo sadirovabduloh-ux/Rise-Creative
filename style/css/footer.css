@@ -2,9 +2,10 @@
 	background: #101c26;
 	margin-top: 50px;
 	padding-top: 20px;
+	padding-bottom: 40px;
 }
 
-.footer {
+.f-cart12 {
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
@@ -104,4 +105,8 @@
 }
 .f2-h4 h4:hover {
 	color: white;
+}
+
+.lin {
+	margin-top: 50px;
 }
