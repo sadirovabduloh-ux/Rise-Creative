@@ -145,6 +145,7 @@
     vertical-align: middle;
     display: flex;
     gap: 5px;
+    align-items: center;
     padding-top: 10px;
   }
   .decor {
